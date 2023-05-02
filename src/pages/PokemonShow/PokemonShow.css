@@ -1,0 +1,159 @@
+h1.name {
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.pokemon-image {
+  width: 300px;
+}
+
+.pokemon-card {
+  width: 50%;
+  border: 2px solid #7a7a7a;
+  border-radius: 8px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.type-container, .abilities-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+}
+
+.abilities-container {
+  margin-top: 8px;
+}
+
+.height, .weight, .abilities-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.height-weight-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  margin: 24px;
+}
+
+.stat-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.stat, .ability {
+  width: 40%;
+  font-weight: bold;
+  margin: 4px;
+  text-align: center;
+}
+
+p.name, p.ability {
+  width: 30%;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.normal {
+  border: 1px solid #a8a878;
+  color: #a8a878;
+}
+
+.fire {
+  border: 1px solid #f08030;
+  color: #f08030;
+}
+
+.water {
+  border: 1px solid #6890f0;
+  color: #6890f0;
+}
+
+.grass {
+  border: 1px solid #78c850;
+  color: #78c850;
+}
+
+.electric {
+  border: 1px solid #f8d031;
+  color: #f8d031;
+}
+
+.ice {
+  border: 1px solid #98d8d8;
+  color: #98d8d8;
+}
+
+.fighting {
+  border: 1px solid #c03028;
+  color: #c03028;
+}
+
+.poison {
+  border: 1px solid #a040a0;
+  color: #a040a0;
+}
+
+.ground {
+  border: 1px solid #e0c068;
+  color: #e0c068;
+}
+
+.flying {
+  border: 1px solid #a890f0;
+  color: #a890f0;
+}
+
+.psychic {
+  border: 1px solid #f85888;
+  color: #f85888;
+}
+
+.bug {
+  border: 1px solid #a8b820;
+  color: #a8b820;
+}
+
+.rock {
+  border: 1px solid #b8a038;
+  color: #b8a038;
+}
+
+.ghost {
+  border: 1px solid #705898;
+  color: #705898;
+}
+
+.dark {
+  border: 1px solid #705848;
+  color: #705848;
+}
+
+.dragon {
+  border: 1px solid #7038f8;
+  color: #7038f8;
+}
+
+.steel {
+  border: 1px solid #b8b8d0;
+  color: #b8b8d0;
+}
+
+.fairy {
+  border: 1px solid #f0b6bc;
+  color: #f0b6bc;
+}

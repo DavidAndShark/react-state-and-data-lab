@@ -1,0 +1,29 @@
+.selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 4px solid #61dafb;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.selector button {
+  height: 45px;
+  width: 260px;
+  background-color: #61dafb;
+  color: #282c34;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.selector button.selected {
+  cursor: default;
+  background-color: #fb9261;
+}
