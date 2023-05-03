@@ -17,7 +17,7 @@ const Pokedex = () => {
   function handleSearchInput(e) {
     setSearchValue(e.target.value)
     setDisplayedPokemon(pokeData.filter(pokemon => {
-      return pokemon.name.includes(e.target.value)
+      return pokemon.name.toLowerCase().includes(e.target.value.toLowerCase())
     }))
   }
 
